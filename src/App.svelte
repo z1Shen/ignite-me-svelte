@@ -11,19 +11,6 @@
 </script>
 
 <main>
-  <nav>
-    <ul>
-      <li><a href="/" class="secondary" data-tooltip="Tooltip">…</a></li>
-    </ul>
-    <ul>
-      <li><strong>Brand</strong></li>
-    </ul>
-    <ul>
-      <li><a href="/">Link</a></li>
-      <li><a href="/">Link</a></li>
-      <li><a href="/" role="button">Button</a></li>
-    </ul>
-  </nav>
   <!-- 1. 🔥 Firebase App -->
   <FirebaseApp {firebase}>
     <!-- 2. 😀 Get the current user -->
@@ -50,7 +37,7 @@
           >
         </p>
 
-        <span slot="loading" aria-busy="true">Loading post...</span>
+        <span slot="loading">Loading post...</span>
         <span slot="fallback">
           <button
             on:click={() =>
