@@ -16,5 +16,6 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_IGNITEME_7F641 }}'
+          firebaseConfig: '${{ secrets.FIREBASE_CONFIG_IGNITEME_7F641 }}'
           channelId: live
           projectId: igniteme-7f641

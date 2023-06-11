@@ -6,6 +6,9 @@
   import "firebase/analytics";
   import { FirebaseApp, User, Doc, Collection } from "sveltefire";
 
+  const test = import.meta.env.firebaseConfig;
+  console.log(test);
+
   import firebaseConfig from "../firebase-config.json";
   firebase.initializeApp(firebaseConfig);
 </script>
