@@ -10,6 +10,7 @@
   firebase.initializeApp(firebaseConfig);
 </script>
 
+<h1>hello</h1>
 <main>
   <!-- 1. 🔥 Firebase App -->
   <FirebaseApp {firebase}>

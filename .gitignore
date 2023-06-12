@@ -24,7 +24,5 @@ dist-ssr
 *.sw?
 
 # Firebase
-# firebase-config.json
-.github/
 .firebase/
 .vscode/
