@@ -10,7 +10,7 @@
 	firebase.initializeApp(firebaseConfig);
 </script>
 
-<h1>New branche</h1>
+<h1>Back to Main</h1>
 <main>
 	<!-- 1. 🔥 Firebase App -->
 	<FirebaseApp {firebase}>
