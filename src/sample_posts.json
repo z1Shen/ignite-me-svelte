@@ -3,28 +3,42 @@
     {
       "id": 1,
       "title": "My first post",
-      "content": "This is my first post"
+      "content": [
+        "This is the first line of content.",
+        "This is the second line of content.",
+        "This is the third line of content."
+      ]
     },
     {
       "id": 2,
       "title": "My second post",
-      "content": "This is my second post"
+      "content": [
+        "This is the first line of content for the second post.",
+        "This is the second line of content for the second post."
+      ]
     },
     {
       "id": 3,
       "title": "My third post",
-      "content": "This is my third post"
+      "content": [
+        "This is the first line of content for the third post."
+      ]
     },
     {
       "id": 4,
-      "title": "My forth post",
-      "content": "This is my forth post"
+      "title": "My fourth post",
+      "content": [
+        "This is the first line of content for the fourth post.",
+        "This is the second line of content for the fourth post.",
+        "This is the third line of content for the fourth post."
+      ]
     },
     {
       "id": 5,
       "title": "My fifth post",
-      "content": "This is my fifth post"
+      "content": [
+        "This is the first line of content for the fifth post."
+      ]
     }
-    
   ]
 }
